@@ -43,7 +43,7 @@ with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:
                       "We have received and looked over your registration form! \n" \
                       "Please take note of the following comments! \n\n" \
                       "If necessary, fix your waiver packet, and resubmit your forms to the following " \
-                      "link: https://forms.gle/Ged16KMMV181thyG6. \n" \
+                      "link: https://forms.gle/zRGQPJ3YzutEGyou9. \n" \
                       "Comments: {comment1}".format(name1=name, comment1=comment)
             # print(message) # for testing
 
